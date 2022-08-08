@@ -7,7 +7,6 @@ import (
 )
 
 func main() {
-
 	err := parameters.RootCmd.Execute()
 	if err != nil {
 		fmt.Println(err)
